@@ -9,6 +9,7 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         'sales-page': resolve(__dirname, 'sales-page/index.html'),
         'webinar-signup': resolve(__dirname, 'webinar-signup/index.html'),
+        'lead-capture': resolve(__dirname, 'lead-capture/index.html'),
       },
     },
   },
