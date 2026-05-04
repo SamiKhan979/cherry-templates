@@ -1,27 +1,59 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Product Launch</title>
+  <title>Product Launch - Cherry</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../shared/brand-colors.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<header class="header">
-  <img src="../shared/assets/logo.svg" height="30">
-</header>
+<nav class="nav">
+  <a href="../product-launch/index.html" class="nav-logo">
+    <img src="../shared/assets/logo.svg" alt="Cherry" height="30">
+    Cherry
+  </a>
+  <ul class="nav-links">
+    <li><a href="../product-launch/index.html" class="active">Launch</a></li>
+    <li><a href="../sales-page/index.html">Sales</a></li>
+    <li><a href="../webinar-signup/index.html">Webinar</a></li>
+  </ul>
+</nav>
 
 <section class="hero">
+  <div class="hero-badge">Coming Soon</div>
   <h1>Launching Soon</h1>
-  <p>Be the first to experience it.</p>
+  <p>Be the first to experience something extraordinary. Sign up to get early access and exclusive updates.</p>
 </section>
 
 <section class="cta">
-  <input type="email" placeholder="Enter email">
-  <button class="btn-primary">Notify Me</button>
+  <div class="cta-form">
+    <input type="email" placeholder="Enter your email address">
+    <button class="btn-primary">Notify Me</button>
+  </div>
+  <p class="cta-note">No spam, ever. Unsubscribe anytime.</p>
 </section>
 
-<footer class="footer">© Cherry</footer>
+<section class="perks container">
+  <div class="perk-card">
+    <div class="perk-icon">01</div>
+    <h3>Early Access</h3>
+    <p>Be among the first to try our product before the official release.</p>
+  </div>
+  <div class="perk-card">
+    <div class="perk-icon">02</div>
+    <h3>Exclusive Updates</h3>
+    <p>Get insider news and development updates delivered to your inbox.</p>
+  </div>
+  <div class="perk-card">
+    <div class="perk-icon">03</div>
+    <h3>Founding Member</h3>
+    <p>Join as a founding member and unlock special benefits forever.</p>
+  </div>
+</section>
+
+<footer class="footer">&copy; 2026 Cherry. All rights reserved.</footer>
 
 </body>
 </html>
