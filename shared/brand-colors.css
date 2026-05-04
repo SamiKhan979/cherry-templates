@@ -67,8 +67,9 @@ body {
   font-size: 18px;
 }
 
-.nav-logo img {
-  height: 30px;
+.nav-logo svg {
+  height: 28px;
+  width: 28px;
 }
 
 .nav-links {
